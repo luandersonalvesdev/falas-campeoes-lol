@@ -121,48 +121,27 @@ main label{
 footer{
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-    "h2 ul"
-    "p ul";
+    grid-template-columns: 2fr 1fr;
+
+    padding: 20px;
 }
 
 footer h2, p{
     color: black;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 30px;
-}
-
-footer h2{
-    grid-area: h2;
-    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer p{
-    grid-area: p;
-    margin-top: 15px;
-    margin-right: 70px;
-    margin-bottom: 30px;
-    text-align: justify;
-}
-
-footer ul{
-    grid-area: ul;
+    margin-top: 10px;
 }
 
 footer ul{
     display: flex;
-
-    justify-content: end;
-    align-items: center;
-
-    margin-right: 60px;
-    margin-left: 100px;
-
     flex-wrap: wrap;
+    gap: 10px;
 
-    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer ul li a svg{

@@ -1,4 +1,4 @@
-># Projeto pessoal!
+># Primeiro projeto pessoal
 
 ![preview](./.github/preview.png)
 
